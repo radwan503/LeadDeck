@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="text-sm">Built for conversion • Crafted with ❤️</div>
+          <div className="text-sm">Built By SlassUI</div>
         </div>
       </footer>
   )
