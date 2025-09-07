@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LeadDeck
 
-## Getting Started
+LeadDeck is a modern **lead capture landing page** built with **Next.js, Tailwind CSS, Ant Design, and Framer Motion**.  
+It’s designed to help businesses grow their leads with a professional, animated, and conversion-focused UI.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- ⚡ **Next.js 13+ App Router** for optimized performance and SEO
+- 🎨 **Tailwind CSS + Ant Design** for modern, responsive styling
+- 🎭 **Framer Motion** animations for engaging user experience
+- 🌐 **SEO Ready** with metadata, OpenGraph, and Twitter cards
+- 📊 **Lead Form** with validation and submission feedback
+- 💎 **Glassmorphism UI** with dynamic background gradient animations
+- 🔒 **Production-ready** architecture, easy to extend
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/radwan503/LeadDeck.git
+cd leaddeck
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Project Structure
 
-## Learn More
+```
+.
+├── app/                 # Next.js App Router pages
+├── components/          # Reusable UI components
+├── styles/              # Global styles (Tailwind, SCSS)
+├── public/              # Static assets (images, icons)
+├── package.json         # Project dependencies
+└── README.md            # Project documentation
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+LeadDeck is ready to deploy on **Vercel** (recommended), **Netlify**, or any Node.js hosting.
 
-## Deploy on Vercel
+Example Vercel deploy:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+vercel
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔧 Customization
+
+* Update `app/layout.tsx` metadata for SEO (title, description, author).
+* Replace `og-image.png` in `public/` for OpenGraph previews.
+* Adjust theme in `tailwind.config.js`.
+
+---
+
+## 🧑‍💻 Author
+
+* **Radwan Anik**
+
+  * [Portfolio](https://radwananik.netlify.app/)
+  * [LinkedIn](https://www.linkedin.com/in/radwanahmedanik/)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+You are free to use, modify, and distribute with attribution.
+
+---
+
+## ⭐ Contributing
+
+Contributions are welcome!
+Feel free to open an **issue** or submit a **pull request**.
+
+```
